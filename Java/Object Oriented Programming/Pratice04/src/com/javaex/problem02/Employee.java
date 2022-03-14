@@ -1,4 +1,4 @@
-package com.javaex.pratice02;
+package com.javaex.problem02;
 
 public class Employee {
 
