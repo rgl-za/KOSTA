@@ -3,12 +3,40 @@
 <head>
 <meta charset="utf-8">
 <title>4장 간단한 회원 가입폼</title>
+<style type="text/css">
+	* {margin:0px; padding: 0px;}
+	body {
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    color: #333
+	}
+	#login-form{
+		width: 180px;
+		padding: 10px;
+		border: 1px solid #666;
+		border-radius: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 120px;
+	}
+	label{
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 3px;
+	}
+	input{
+		display: block;
+		margin-top: 5px;
+	}
+</style>
 </head>
 <body>
-	<form id="join-form" name="joinForm" method="GET" action="join.jsp">
-		아이디<input id="userid" name="userid" type="text" value="">
-		패스워드<input name="password" type="password" value="">
-		<input type="submit" value="가입하기">
+	<form id="login-form" name="login-form" method="GET" action="join.jsp">
+		<label>아이디</label>
+		<input id="userid" name="userid" type="text" value="">
+		<label>패스워드</label>
+		<input name="password" type="password" value="">
+		<input type="submit" value="LOGIN">
 		
 	</form>
 </body>
