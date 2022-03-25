@@ -10,9 +10,9 @@ window.onunload = function(){
 	alert("!");	
 }
 
-function onUnload = function(){
-	alert("진짜 나갈래?");	
-} 
+// function onUnload = function(){
+// 	alert("진짜 나갈래?");	
+// } 
 
 function onLoad(){
 	var btn = document.getElementById("myBtn");
@@ -38,7 +38,7 @@ function hideDate(){
 
 <p>버튼을 클릭하면  <em>displayDate()</em> 함수가 실행 됩니다.</p>
 
-<button id="myBtn">Try it</button>
+<button onclick="displayDate()" onmouseover="displayDate()" onmouseout="hideDate()"> Try it</button>
 
 <p id="demo"></p>
 

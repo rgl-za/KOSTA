@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+    var Foo = function(a, b) {
+    // 생성자
+    this.name = a;
+    this.nick= b;
+    this.aNumber=5;
+    this.doFoo=function(){
+        alert("I'm "+this.name);
+    };
+};
+
+// 객체 생성 및 생성자 호출
+// var obj1 = new Foo();
+// obj1.doFoo();
+
+// Foo 생성자에서 name, nick 초기화
+var obj2= new Foo("홍길동", "부장");
+// obj2.doFoo();
+obj2.doFoo(obj2.nick);
+
+</script>
+
+</head>
+<body>
+</body>
+</html>
