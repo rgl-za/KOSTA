@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="browser-detect.js"></script>
+<script type="text/javascript">
+function checkClient() {
+   BrowserDetect.init();
+   //alert( BrowserDetect.OS);
+   document.getElementById("os").innerHTML = BrowserDetect.OS;
+   document.getElementById("browser").innerHTML = BrowserDetect.browser;
+   document.getElementById("version").innerHTML = BrowserDetect.version;
+}
+</script>
+</head>
+<body onload="checkClient()">
+<p>시스템 정보</p>
+<p id="os"></p>
+<p id="browser"></p>
+<p id="version"></p>
+</body>
+</html>
