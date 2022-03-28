@@ -17,12 +17,24 @@ var images = [
 	"툴립:Tulips.jpg" ];
 
 $(function(){
-
 	$("button").click(function(){
-		// 랜덤 변수 
-		var result = Math.floor( Math.random() * (images.length-1)  ) + 1;
+	// 랜덤 변수 
+	var result = Math.floor( Math.random() * (images.length-1)  ) + 1;
+
+	var temp = images[result].split(":");
+	//alert(temp[0]); // 한글명
+	//alert(temp[1]); // 파일명
+
+	$("img").attr({
+		"src" : "images/" + temp[1],
+		"alt" : temp[0]
 	});
-	
+});
+
+$("img").dblclick(function(){
+	alert($("img").attr("alt"));
+});
+
 });
 </script>
 </head>
