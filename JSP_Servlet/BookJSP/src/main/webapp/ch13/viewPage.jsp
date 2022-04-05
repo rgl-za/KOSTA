@@ -4,7 +4,7 @@
 <%@page import="java.util.*,java.io.*"%>
 <%
 	//String saveFolder = "C:/Jsp/myapp/WebContent/ch13/filestorage";
-  String saveFolder = "/Users/jeongjonguk/eclipse-workspace/myapp/WebContent/ch13/filestorage";
+  String saveFolder = "/Users/jihyeonjeong/Developer/BookJSP/src/main/webapp/ch13/filestorage";
 	String encType = "UTF-8";
 	int maxSize = 5 * 1024 * 1024; // 5MByte
 	try {

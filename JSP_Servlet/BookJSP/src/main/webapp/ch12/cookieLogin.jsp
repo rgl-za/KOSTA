@@ -14,7 +14,7 @@
 %>
 <script>
 	alert("로그인 되었습니다.");
-	location.href = "cookieLoginOK.jsp";
+	location.href = "cookieLoginOK.jsp"; // 쿠키 정보가 있으면 페이지 이동
 </script>
 <%
 	}

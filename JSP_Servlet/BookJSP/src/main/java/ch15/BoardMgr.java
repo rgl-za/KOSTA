@@ -21,7 +21,7 @@ public class BoardMgr {
 
 	private DBConnectionMgr pool;
 	//private static final String  SAVEFOLDER = "C:/Jsp/myapp/WebContent/ch15/fileupload";
-	private static final String  SAVEFOLDER = "/Users/jeongjonguk/eclipse-workspace/myapp/WebContent/ch15/filestorage";
+	private static final String  SAVEFOLDER = "/Users/jihyeonjeong/Developer/BookJSP/src/main/webapp/ch15/filestorage";
 	private static final String ENCTYPE = "UTF-8";
 	private static int MAXSIZE = 5*1024*1024;
 
