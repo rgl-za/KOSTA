@@ -1,4 +1,4 @@
-package com.javaex;
+package helloJSP;
 
 public class EmaillistVo {
 

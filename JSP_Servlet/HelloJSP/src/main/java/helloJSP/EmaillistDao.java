@@ -1,4 +1,4 @@
-package com.javaex;
+package helloJSP;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
