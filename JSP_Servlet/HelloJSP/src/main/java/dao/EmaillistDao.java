@@ -1,4 +1,4 @@
-package helloJSP;
+package dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -96,9 +96,9 @@ public class EmaillistDao {
 		  conn = getConnection();
 			
 			// 3. SQL문 준비 / 바인딩 / 실행
-			String query = "select no, last_name, first_name, email "
-						       + "from emaillist "
-					         + "order by no desc" ;
+			String query = "select \"no\", \"last_name\", \"first_name\", \"email\" "
+						 + "from emaillist "
+					     + "order by \"no\" desc" ;
 			pstmt = conn.prepareStatement(query);
 			
 			rs = pstmt.executeQuery();
